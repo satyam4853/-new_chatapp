@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: Amazon Linux 2
+    runs-on: linux
 
     steps:
     - uses: actions/checkout@v1 
